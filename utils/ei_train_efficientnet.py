@@ -51,8 +51,8 @@ def train_efficientnet_model(learn_block_id):
             "useLearnedOptimizer": False,
             "blockParameters": {},
             "customParameters": {
-                "epochs": "30",
-                "learning-rate": "0.001",
+                "epochs": "20",
+                "learning-rate": "0.0005",
                 "use-pretrained-weights": "true",
                 "freeze-percentage-of-layers": "90",
                 "last-layers": "dense: 32, dropout: 0.1",
